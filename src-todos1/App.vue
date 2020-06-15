@@ -46,8 +46,7 @@
         deep : true,
         handler : function (value) {
           //将todos最新的值 保存到localStorage
-          window.localStorage.setItem('todos_key',JSON.stringify(value))
-
+          window.localStorage.setItem('todos_key',JSON.stringify(value)
         }
       }
     }

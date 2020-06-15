@@ -4,8 +4,6 @@
     <h2 v-show="comments.length === 0">暂无评论，点击左侧添加评论！！！</h2>
     <ul class="list-group">
       <!--:comment相当于传递值过去-->
-
-
           <Item v-for="(comment,index) in comments" :key="index" :comment="comment"
           :deleteComment="deleteComment" :index="index" />
     </ul>

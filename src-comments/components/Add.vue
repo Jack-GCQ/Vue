@@ -48,7 +48,7 @@
           content
         }
         // 3.添加到comments中
-        this.addComment(comment)
+          this.addComment(comment)
         //清楚输入
         this.name = ''
         this.content = ''
