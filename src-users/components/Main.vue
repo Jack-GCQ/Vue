@@ -31,7 +31,7 @@
     mounted () {
       // 是否在这发ajax请求 +
       // 订阅搜索的消息
-      PubSub.subscribe('search',(msg,searchName) => {
+        PubSub.subscribe('search',(msg,searchName) => {
       const url = `http://api.github.com/search/users?q=${searchName}`
         // 更新状态
         this.firstView = false
